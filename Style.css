@@ -1,0 +1,209 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial, sans-serif';
+  line-height: 1.6;
+  background: #000000;
+  color: #2104c9;
+}
+
+.logo {
+  
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2px; 
+  margin: 0 auto; 
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+  width: 250px;
+  height: 250px;
+}
+
+
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(2, 79, 156, 0.473), rgba(0, 0, 0, 0.5)), url("assets/images/1.png") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 20px;
+  border-bottom: 1px solid #0011ff;
+  ;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2104c9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .banner-content {
+  max-width: 600px;
+}
+
+header .logo img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  
+}
+
+header button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  background: linear-gradient(45deg, #0033cc, #0066ff, #3399ff); 
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  
+}
+
+header button:hover {
+  background: #49cbff;
+}
+
+
+main h2 {
+  color: #ffffff;;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: arial sans-serif;
+
+  }
+main p {
+  color: #fff
+  
+}
+
+
+#course-content {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-image: url("assets/images/Back-final.jfif");
+  height: 560px;
+}
+
+#course-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+ 
+}
+
+#course-content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  text-align: center;
+  
+  
+}
+
+#course-content .modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+#course-content .module {
+  background: linear-gradient(45deg, #0033cc, #0066ff, #3399ff);
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #2104c9;
+  color: #fff;
+ 
+}
+
+#transform-world {
+  height: 560px;
+  background-size: cover;
+  background-image: url("assets/images/woman-code.png");
+  background-attachment: fixed;
+  border-top: 1px solid #33A8DB80;
+  border-bottom: 1px solid #33A8DB80;
+  padding: 200px;
+}
+
+#transform-world p{
+  font-family: "Gelasio", serif;  
+  font-size: 30px;
+  font-style: italic;
+  text-transform: lowercase;
+  text-align: left;
+  color:#fff;
+  max-width: 250px;
+}
+
+#professional-challenges {
+  padding: 30px;
+  background-image: url("assets/images/Back-final.jfif");
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#professional-challenges img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#professional-challenges h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#professional-challenges p {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+
+footer {
+  background-image: url("assets/images/Back-final.jfif");
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .dio-logo {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #ff6f61;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
